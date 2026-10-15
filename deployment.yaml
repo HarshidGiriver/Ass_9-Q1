@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: lms-portal-container
-        image: YOUR_DOCKERHUB_USERNAME/lms-portal:latest
+        image: harshid2007/lms-portal:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
